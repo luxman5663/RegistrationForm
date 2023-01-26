@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      .main {
+        background-color: rgb(156, 213, 236);
+
+        width: 600px;
+        height: 500px;
+        padding-left: 10px;
+      }
+      .Heading {
+        text-align: center;
+      }
+      .msg{
+        font-weight: bolder;
+        font-style: italic;
+      }
+      .profession{
+        font-weight: bolder;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h2 class="Heading">Registration Form</h2>
+      <label for="">Enter your details below</label>
+      <ul>
+        
+        <li><input type="text" placeholder="your_emain@gmail.com"></li><br>
+        <li><input type="password" placeholder="Password"></li>
+      </ul>
+      <p class="msg">!Type a complex password with 8-20 characters.</p>
+      <ul>
+        <li><input type="text" placeholder="+20 Phone Number"></li>
+      </ul>
+      <hr>
+      <label for="profession" class="profession">Enter your profession:</label>
+      <ul>
+        <li><input type="radio">Student<input type="radio">Teacher<input type="radio">Developer</li>
+      </ul>
+     <label for="stage"> Choose the stage if you are (student)</label>
+     <select name="profession" id="">
+        <option value="">Matriculation</option>
+        <option value="">Intermediate</option>
+        <option value="">Graduation</option>
+        <option value="">Master Degree</option>
+        <option value="">DCA</option>
+        <option value="">PGDCA</option>
+     </select>
+     <hr>
+     <ul>
+        <li><label for="DOB">Enter your date of birth</label> <input type="date"></li>
+     </ul>
+     <hr>
+     <ul>
+        <li><input type="text" placeholder="Any notes"></li>
+     </ul>
+     <hr>
+     <input type="button" value="submit">  <input type="button" value="reset">
+      
+    </form>
+
+    </div>
+  </body>
+</html>
